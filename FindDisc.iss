@@ -1,5 +1,5 @@
-//  Hype - The Time Quest
-//  Modified for Hype - The Time Quest by SuicideMachine
+//  Laura's Happy Adventures
+//  Modified for Laura's Happy Adventures by 8bitKittyKat
 //  Based on a code of Triangle717's Lego Racer Alternative Installer
 //  <http://triangle717.wordpress.com/>
 //  Contains source code from Grim Fandango Setup
@@ -17,8 +17,8 @@ var
 	external 'GetLogicalDriveStringsA@kernel32.dll stdcall';
 
 const
-// Standard LEGO Racers disc
-	UniqueFile_1 = 'Hype.ico';
+// Standard Laura's Happy Adventures disc
+	UniqueFile_1 = 'Laura.ico';
 
 	DRIVE_UNKNOWN = 0; // The drive type cannot be determined.
 	DRIVE_NO_ROOT_DIR = 1; // The root path is invalid. For example, no volume is mounted at the path.
@@ -90,7 +90,7 @@ var
 begin
 	for i:=0 to GetArrayLength(DrvLetters) -1 do
 	begin
-    // A standard LEGO Racers disc was detected
+    // A standard Laura's Happy Adventures disc was detected
 		if FileExists( DrvLetters[i] + UniqueFile_1) then
 		begin
 			result:=DrvLetters[i];
@@ -121,7 +121,7 @@ begin
 	begin
 		while FindUniqueFile() = '' do
 		begin
-			if MsgBox('Is there a Hype - The Time Quest CD in your computer? If not, please insert it and press OK.', mbConfirmation, MB_OKCANCEL or MB_DEFBUTTON1) = IDOK then
+			if MsgBox('Is there a Laura''s Happy Adventures CD in your computer? If not, please insert it and press OK.', mbConfirmation, MB_OKCANCEL or MB_DEFBUTTON1) = IDOK then
 
 			else
 				Abort;
