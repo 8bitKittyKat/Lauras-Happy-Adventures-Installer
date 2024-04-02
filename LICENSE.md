@@ -1,9 +1,9 @@
 MIT License
 
-Hype - The Time Quest Alternative Installer
+Hype - The Time Quest Alternative Installer<br>
 Copyright (c) 2018 Jakub Dylus
 
-Modifications of above for Laura's Happy Adventures Alternative Installer
+Modifications of above for Laura's Happy Adventures Alternative Installer<br>
 Copyright (c) 2024 Kat Lovelace (8bitKittyKat)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
