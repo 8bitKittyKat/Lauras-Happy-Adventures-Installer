@@ -1,1 +1,0 @@
-sdbinst.exe -u -q "%CD%\hype.sdb"
